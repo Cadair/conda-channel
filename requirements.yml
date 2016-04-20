@@ -62,10 +62,6 @@
   version: '2.1'
   excluded_platforms:
     - 'win-64'
-# # The package below has a recipe template.
-
-# - name: APLpy
-#   version: '1.0'
 
 - name: healpy
   version: '1.9.1'
@@ -73,3 +69,6 @@
   numpy_build_restrictions: '>=1.9*,<1.11'
   excluded_platforms:
       - 'win-64'
+
+- name: sphinx-gallery
+  version: '0.1.2'
